@@ -1,0 +1,57 @@
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/img/background-hero.avif");
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  color: #fff;
+}
+
+.cta-button {
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #dc3545;
+}
+
+.testimonial-card {
+  transition: all 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card {
+  transition: all 0.3s;
+}
+
+.pricing-card:hover {
+  transform: scale(1.03);
+}
+
+.popular-plan {
+  position: relative;
+  overflow: hidden;
+}
+
+.popular-plan::before {
+  content: "MAIS POPULAR";
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 30px;
+  font-size: 0.8rem;
+  transform: rotate(45deg);
+}
